@@ -1,0 +1,23 @@
+@import "node_modules/sass-true/sass/true";
+@import 'text.scss';
+
+@include describe('The function for px conversion to rem') {
+  @include it(' px(16); Outputs 1rem') {
+    @include assert {
+      @include output { font-size: px(16); }
+      @include expect { font-size: 1rem; }
+    }
+  }
+  @include it(' px(18); Outputs 1.125rem') {
+    @include assert {
+      @include output { font-size: px(18); }
+      @include expect { font-size: 1.125rem; }
+    }
+  }
+  @include it(' px(32); Outputs 2rem') {
+    @include assert {
+      @include output { font-size: px(32); }
+      @include expect { font-size: 2rem; }
+    }
+  }
+}

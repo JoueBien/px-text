@@ -1,0 +1,16 @@
+{
+  "name": "px-text",
+  "version": "1.0.0",
+  "description": "a tool css for converting pixel measurements to rem",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Zach radloff",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "node-sass": "^4.12.0",
+    "sass-true": "^4.0.0"
+  }
+}
