@@ -1,7 +1,7 @@
 {
   "name": "px-text",
-  "version": "1.0.0",
-  "description": "a tool css for converting pixel measurements to rem",
+  "version": "0.1.2",
+  "description": "A tool css for converting pixel measurements to rem.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -12,5 +12,19 @@
     "mocha": "^6.1.4",
     "node-sass": "^4.12.0",
     "sass-true": "^4.0.0"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoueBien/px-text.git"
+  },
+  "keywords": [
+    "css",
+    "px",
+    "text"
+  ],
+  "bugs": {
+    "url": "https://github.com/JoueBien/px-text/issues"
+  },
+  "homepage": "https://github.com/JoueBien/px-text#readme"
 }
