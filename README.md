@@ -1,6 +1,6 @@
 ## Overview
 
-Px text is a small sass function that allows for the quick conversion of pixels to rem. Its primary purpose is to allow programmers to convert text sizes from pixel measurements into rem without requiring a calculator.
+Px text is a small sass and js function that allows for the quick conversion of pixels to rem. Its primary purpose is to allow programmers to convert text sizes from pixel measurements into rem without requiring a calculator.
 
   
 
@@ -111,7 +111,7 @@ MIT https://github.com/JoueBien/px-text/blob/master/LICENSE
 
   
 
-Note that this library & documentation was written to work with the sass loader that vue uses. It should work with other frameworks but there are no guarantees that it will.
+Note that this library & documentation was originally written to work with the sass loader that vue uses. It should work with other frameworks but there are no guarantees that it will.
 
   
 
