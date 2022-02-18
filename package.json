@@ -1,6 +1,6 @@
 {
   "name": "px-text",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A tool css for converting pixel measurements to rem.",
   "main": "index.js",
   "scripts": {
@@ -26,5 +26,6 @@
   "bugs": {
     "url": "https://github.com/JoueBien/px-text/issues"
   },
-  "homepage": "https://github.com/JoueBien/px-text#readme"
+  "homepage": "https://github.com/JoueBien/px-text#readme",
+  "types": "index.d.ts"
 }
