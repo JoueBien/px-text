@@ -1,5 +1,5 @@
 @import "node_modules/sass-true/sass/true";
-@import 'text.scss';
+@import './index.scss';
 
 @include describe('The function for px conversion to rem') {
   @include it(' px(16); Outputs 1rem') {

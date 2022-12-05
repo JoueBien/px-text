@@ -32,12 +32,18 @@ line-height: px(21);
 
 ## Node and Styled Components
 ### Import js
-`import {px} from 'px-text'`
+```
+import {px} from 'px-text'
+
+# OR
+
+import px from 'px-text'
+```
 
 ### Example
 ```
 import styled, { css } from 'styled-components'
-import {px} from 'px-text'
+import px from 'px-text'
 
 const containerStyles = css`
 	p {
@@ -62,38 +68,29 @@ should ouput the following
 
 ```
 
-> px-text@0.1.4 test C:\.. ..\px-text
-
+> px-text@0.1.6 test
 > mocha
 
-  
 
-Running SASS Test
 
-The function for px conversion to rem
+  Running SASS Test
+    The function for px conversion to rem
+      √  px(16); Outputs 1rem
+      √  px(18); Outputs 1.125rem
+      √  px(32); Outputs 2rem
 
-√ px(16); Outputs 1rem
+  Running JS Test
+    The function for px conversion to rem
+      √  px(16); Outputs 1rem
+      √  px(18); Outputs 1.125rem
+      √  px(32); Outputs 2rem
+    The function for px conversion to rem when using the default export
+      √  px(16); Outputs 1rem
+      √  px(18); Outputs 1.125rem
+      √  px(32); Outputs 2rem
 
-√ px(18); Outputs 1.125rem
 
-√ px(32); Outputs 2rem
-
-  
-
-Running JS Test
-
-The function for px conversion to rem
-
-√ px(16); Outputs 1rem
-
-√ px(18); Outputs 1.125rem
-
-√ px(32); Outputs 2rem
-
-  
-  
-
-6 passing (20ms)
+  9 passing (5ms)
 
 ```
 
@@ -109,10 +106,10 @@ MIT https://github.com/JoueBien/px-text/blob/master/LICENSE
 
 ## Notes
 
-  
+This library & documentation was originally written to work with the sass loader that vue 2 used. It should work with other frameworks but there are no guarantees that it will.
 
-Note that this library & documentation was originally written to work with the sass loader that vue uses. It should work with other frameworks but there are no guarantees that it will.
+It is currently working with React, Svelte, Vue 2 and Vue 3. The `0.2.0` release is designed to work with more modern environments.
 
-  
+For vue 2 projects you may wish to use version `0.1.5` as it uses an earlier version of SASS. 
 
 If you know how to use it with other front end frameworks feel free to make a pull request or open an issue.

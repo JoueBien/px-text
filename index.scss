@@ -1,4 +1,9 @@
+@use "sass:math";
+
+/**
+* In new sass we can't divide without the math lib
+* This is dumb but we need to support new sass
+*/
 @function px ($pixels) {
-    @return $pixels/16+0rem;
-  }
-  
+  @return math.div($pixels, 16) + 0rem;
+}

@@ -1,6 +1,6 @@
 {
   "name": "px-text",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "A tool css for converting pixel measurements to rem.",
   "main": "index.js",
   "scripts": {
@@ -10,10 +10,10 @@
   "license": "MIT",
   "devDependencies": {
     "mocha": "^6.2.3",
-    "node-sass": "^4.14.1",
-    "sass-true": "^4.0.0"
+    "node-sass": "^8.0.0",
+    "sass": "^1.56.1",
+    "sass-true": "^6.1.0"
   },
-  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JoueBien/px-text.git"
